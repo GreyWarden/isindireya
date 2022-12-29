@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { HelloThere } from '@modules/HelloThere'
 
 export default function Home() {
   return (
@@ -6,6 +7,9 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
+      <div>
+          <HelloThere />
+      </div>
     </>
   )
 }
