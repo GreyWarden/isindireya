@@ -7,9 +7,6 @@ export default {
     title: 'Modules/HelloThere',
     component: HelloThere,
     // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-    argTypes: {
-        backgroundColor: { control: 'color' },
-    },
 } as ComponentMeta<typeof HelloThere>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
