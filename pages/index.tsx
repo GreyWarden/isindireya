@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { HelloThere } from '@modules/HelloThere'
+import { CharacterNodeCreator } from '@modules/CharacterNodeCreator/CharacterNodeCreator'
 
 export default function Home () {
   return (
@@ -8,7 +8,7 @@ export default function Home () {
         <title>Create Next App</title>
       </Head>
       <div>
-          <HelloThere />
+          <CharacterNodeCreator />
       </div>
     </>
   )
