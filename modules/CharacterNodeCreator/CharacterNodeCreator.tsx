@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import styles from './CharacterNodeCreator.module.scss'
 
 interface Character {
   name: string
@@ -31,8 +32,8 @@ export class CharacterNodeCreator extends Component {
   }
 
   render () {
-    return (<>
+    return (<div className={ styles['character-node-creator__container'] } >
       { this.state.characters.map((character) => (character.name)) }
-    </>)
+    </div>)
   }
 }
