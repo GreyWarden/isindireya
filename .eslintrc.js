@@ -15,9 +15,6 @@ module.exports = {
     'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
     'plugin:@dword-design/import-alias/recommended',
-    // 'plugin:jest/recommended',
-    // 'plugin:jest/style',
-    // 'plugin:jest-formatting/recommended',
   ],
   // add your custom rules here
   rules: {
