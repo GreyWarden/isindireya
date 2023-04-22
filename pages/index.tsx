@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { CharacterNodeCreator } from '@modules/CharacterNodeCreator/CharacterNodeCreator'
+import { NodeCreator as CharacterNodeCreator } from '@modules/Character/NodeCreator/NodeCreator'
 
 export default function Home () {
   return (

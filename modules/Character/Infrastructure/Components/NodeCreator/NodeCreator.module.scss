@@ -1,0 +1,9 @@
+.character-node-creator {
+  &__container {
+    @apply grid bg-red-800;
+    grid-template-areas:
+      'actions'
+      'creator'
+      'characters';
+  }
+}
