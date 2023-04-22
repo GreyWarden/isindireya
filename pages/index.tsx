@@ -1,15 +1,23 @@
 import Head from 'next/head'
-import { NodeCreator as CharacterNodeCreator } from '@modules/Character/NodeCreator/NodeCreator'
+import Link from 'next/link'
 
 export default function Home () {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Isindireya</title>
       </Head>
-      <div>
-          <CharacterNodeCreator />
-      </div>
+      <section>
+          <h2>Welcome to Isindireya</h2>
+          <p>
+              Isindireya is designed to be a tool for your RPG world building.
+              In it, you can create characters, places, events and set relations between them.
+          </p>
+          <p>Down below you will find links to each creation tool.</p>
+          <div>
+              <Link href={ '/characters' }> Character creator </Link>
+          </div>
+      </section>
     </>
   )
 }
